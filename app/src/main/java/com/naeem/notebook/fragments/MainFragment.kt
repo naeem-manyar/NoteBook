@@ -20,10 +20,10 @@ import com.naeem.notebook.viewmodel.NoteBookViewModel
 
 class MainFragment : Fragment(), ClickHandler {
 
-    lateinit var navController: NavController
-    lateinit var viewModel: NoteBookViewModel
+    private lateinit var navController: NavController
+    private lateinit var viewModel: NoteBookViewModel
 
-    var adapter = MyAdapter(this)
+    private var adapter = MyAdapter(this)
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

@@ -16,8 +16,8 @@ import com.naeem.notebook.viewmodel.NoteBookViewModel
 
 class AddFragment : Fragment() {
 
-    lateinit var navController: NavController
-    lateinit var viewModel:NoteBookViewModel
+    private lateinit var navController: NavController
+    private lateinit var viewModel:NoteBookViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

@@ -1,5 +1,6 @@
 package com.naeem.notebook.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,10 +10,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.naeem.notebook.R
 import com.naeem.notebook.model.NoteBook
 
-class MyAdapter(val clickHandler: ClickHandler): RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
+class MyAdapter(private val clickHandler: ClickHandler): RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
-    var listNoteBook = listOf<NoteBook>()
+    private var listNoteBook = listOf<NoteBook>()
 
+    @SuppressLint("NotifyDataSetChanged")
     fun setContentList(listNoteBook:List<NoteBook>){
         this.listNoteBook = listNoteBook
         notifyDataSetChanged()

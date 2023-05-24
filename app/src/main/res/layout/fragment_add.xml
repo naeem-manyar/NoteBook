@@ -22,7 +22,8 @@
         android:layout_below="@id/toolbarAdd"
         android:padding="20dp"
         android:layout_margin="10dp"
-        android:hint="Title"/>
+        android:hint="@string/title"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/etAddDesc"
@@ -31,7 +32,8 @@
         android:layout_below="@id/etAddTitle"
         android:padding="20dp"
         android:layout_margin="10dp"
-        android:hint="Description"/>
+        android:hint="@string/description"
+        android:inputType="text" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fBtnAddNotebook"
@@ -40,6 +42,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_margin="16dp"
-        android:src="@drawable/ic_check"/>
+        android:src="@drawable/ic_check"
+        android:contentDescription="fBtnAddNotebook" />
 
 </RelativeLayout>
