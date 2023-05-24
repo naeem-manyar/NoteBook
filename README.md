@@ -1,14 +1,15 @@
-# NoteBook
+# NoteBook ✍
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Kotlin](https://img.shields.io/badge/Kotlin-100%25-brightgreen)
 ![build](https://img.shields.io/badge/build-passing-brightgreen)
 ![dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)
+![license](https://img.shields.io/badge/license-MIT-blue)
 
 Notebook is an advanced Android note-taking app that combines a clean interface with technologies like MVVM, Navigation Components, and ROOM. It offers seamless organization, data persistence, and enhanced user experience, making it the ideal solution for efficient note-taking and organization.
 
 ## Demo
-![]()
+![](https://github.com/naeem-manyar/NoteBook/blob/master/notebook.gif)
 
 ## Features
 
@@ -26,7 +27,7 @@ Notebook is an advanced Android note-taking app that combines a clean interface 
  * MVVM Architecture
  * Room database library
  * Android Studio
- * Third party libraries like .
+ * Some Third party libraries.
 
 ## Installation
 
