@@ -9,7 +9,8 @@
 Notebook is an advanced Android note-taking app that combines a clean interface with technologies like MVVM, Navigation Components, and ROOM. It offers seamless organization, data persistence, and enhanced user experience, making it the ideal solution for efficient note-taking and organization.
 
 ## Demo
-![](https://github.com/naeem-manyar/NoteBook/blob/master/notebook.gif)
+
+ ![notebook](https://github.com/naeem-manyar/NoteBook/assets/133579502/74652524-b672-4bb2-b8a2-de0dd3da7c2c)
 
 ## Features
 
